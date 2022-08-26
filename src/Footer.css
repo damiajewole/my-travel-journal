@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.footer{
+    background-color: transparent; 
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: right;
+    color: #F55A5A;
+    font-weight: 400px;
+    gap: 5px;
+    margin-right: 4rem;
+}
+
+.footer--icon{
+    height: 20px;
+    filter: invert(51%) sepia(49%) saturate(3009%) hue-rotate(328deg) brightness(99%) contrast(94%);
+}
