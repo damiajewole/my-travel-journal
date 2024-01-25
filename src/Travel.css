@@ -2,7 +2,6 @@
 
 
 .section{
-    /* background-color: #F55A5A; */
     display: flex;
     flex-direction: row;
     margin: 2.5rem 4rem;
@@ -48,6 +47,7 @@ span{
 .map--text a{
     margin: 0 1.5rem;
     color: #918E9B;
+    font-size: 0.8rem;
 }
 
 .header-bg-text{
@@ -63,3 +63,35 @@ span{
     font-size: 0.8rem;
 }
 
+@media (max-width: 744px) {
+    .section{
+        flex-direction: column;
+        padding-bottom: 2rem;
+        align-items: center;
+        border-bottom: 1px solid #F5F5F5;
+        margin: 2rem 2rem;
+    }
+
+    .img--div{
+        width: 80%;
+    }
+
+    .travel--text{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .section{
+        margin: 1.5rem 2rem;
+    }
+
+    .img--div{
+        width: 100%;
+    }
+
+    .travel--text{
+        width: 100%;
+    }
+}
